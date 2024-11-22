@@ -31,3 +31,17 @@
 - Run test case in suite XML (**src/test/resources/suites/**)
 - Run test case from Maven pom.xml file
   (**mvn clean test**)
+
+
+**Test Configuration**
+
+- The test execution can be modified by updating the variables in config.properties file present in path below:
+- src\test\resources\config\config.properties
+
+
+
+**Test Results**
+
+- The test results can be found unde report folder
+- depending on the configuration the results will be overwritten or saved separtely
+- Screenshots are stored in ExportData folderS
