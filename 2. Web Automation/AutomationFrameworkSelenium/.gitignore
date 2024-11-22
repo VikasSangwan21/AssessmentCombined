@@ -1,0 +1,11 @@
+bin/
+out/
+.idea/
+.allure/
+allure-results/
+logs/
+target/
+test-output/
+*.mp4
+*.avi
+allure-report/

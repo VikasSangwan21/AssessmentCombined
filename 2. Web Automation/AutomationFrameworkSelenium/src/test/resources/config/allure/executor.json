@@ -1,0 +1,10 @@
+{
+   "name": "Jenkins",
+   "type": "jenkins",
+   "url": "",
+   "buildOrder": 1,
+   "buildName": "Allure Report Customize ",
+   "buildUrl": "",
+   "reportUrl": "",
+   "reportName": "Allure Report Customize "
+}

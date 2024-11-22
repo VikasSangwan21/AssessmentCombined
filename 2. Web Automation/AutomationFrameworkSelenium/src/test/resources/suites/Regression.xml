@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Tests Juice Shop">
+
+    <listeners>
+        <listener class-name="com.assessment.listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="Regression Test JuiceBox">
+        <parameter name="BROWSER" value="chrome"/>
+        <classes>
+            <class name="com.assessment.testcases.JuiceBox.testcases.JuiceShopTest"/>
+        </classes>
+    </test>
+
+</suite>
